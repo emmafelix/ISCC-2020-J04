@@ -100,10 +100,52 @@ footer{
 .tableau{
     height:480px ;
     overflow-x: scroll;
+    background-color: white;
 }
 
 th{
     color:white;
     background-color:#27d1ff;
     text-transform:uppercase;
+}
+
+form{
+    outline: none;
+    width:300px;
+    padding:8px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    border: solid 4px #e6e6e6;
+}
+
+
+button{
+    text-align:center;
+}
+
+
+button:hover{
+    background-color: #17c1ff;
+    color:white;
+    border:none;
+}
+
+button:active{
+    box-shadow: inset 1px 1px 1px 1px black;
+}
+
+input{
+    width:250px;
+    height: 30px;
+    border: solid 2px #e6e6e6;
+    margin:1%;
+}
+
+input:hover{
+    border:2px solid #17c1ff;
+}
+
+.messagepart{
+    height: 60px;
 }
