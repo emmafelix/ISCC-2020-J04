@@ -51,11 +51,9 @@ vertical-align: middle;
 
 a{
     text-decoration:none;
-}
-
-a:visited{
     color:white;
 }
+
 a:hover{
 color:#17c1ff;
 }
@@ -76,9 +74,36 @@ p{
     padding:10px;
 }
 .picture1{
-    float:left
+
+    width:50%;
 }
 
 .picture2{
-    float: right;
+
+    width:50%;
+}
+
+.picture{
+    display:flex;
+    flex-direction:row;
+    overflow:hidden;
+}
+
+.picturesize{
+    width:80%;
+}
+
+footer{
+    padding:5%;
+}
+
+.tableau{
+    height:480px ;
+    overflow-x: scroll;
+}
+
+th{
+    color:white;
+    background-color:#27d1ff;
+    text-transform:uppercase;
 }
